@@ -4,7 +4,7 @@ import { useMemo } from "react";
 import { useSelector } from "react-redux";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { themeSettings } from "theme";
-
+import Dashboard from "scenes/dashboard";
 
 function App() {
   const mode = useSelector((state)=>state.global.mode); 
